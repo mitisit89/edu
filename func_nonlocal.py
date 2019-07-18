@@ -8,3 +8,4 @@ def func_outer():
     func_inner()
     print('Локальное x сменилось на', x)
 func_outer()
+ 
