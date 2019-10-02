@@ -4,3 +4,8 @@ for i in range(1,5,2):
     print(i)
 else:
     print('Цикл for закончен')
+
+class bird:
+    pass
+class  pipe(object):
+	pass 
