@@ -1,7 +1,7 @@
 import random
 num=20
 guess=int(input('Введите целое число : '))
-if guess==num:ddd
+if guess==num:
     print('Поздравляю, вы угадали')
     print('(хотя и не выиграли никакого приза!)')
 elif guess<num:
