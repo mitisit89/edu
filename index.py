@@ -20,3 +20,5 @@ lawer = JDPerson('Fudd')
 print(doctor.name)
 print(person.name)
 print(lawer.name)
+print('hello')
+
