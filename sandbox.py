@@ -12,20 +12,20 @@ class Animal:
 
     def run(self, speed):
         self.speed = speed
-        print(f'{self.name},бежит с скоростю {self.speed}')
+        print(f"{self.name},бежит с скоростю {self.speed}")
 
     @staticmethod
     def stop():
         speed = 0
-        print(f'{speed} are stop')
+        print(f"{speed} are stop")
 
 
 class Rabbit(Animal):
     def hide(self):
-        print('Rabbit are hiding!')
+        print("Rabbit are hiding!")
 
 
-rabbit = Rabbit('Black Rabbit')
+rabbit = Rabbit("Black Rabbit")
 rabbit.run(2)
 rabbit.hide()
 Rabbit.stop()

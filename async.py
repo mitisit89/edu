@@ -1,9 +1,11 @@
 import asyncio
 
+
 async def count():
-    print('one')
+    print("one")
     await asyncio.sleep(1)
-    print('two')
+    print("two")
+
 
 async def main():
-    await asyncio.gather(count(),count(),count())
+    await asyncio.gather(count(), count(), count())
