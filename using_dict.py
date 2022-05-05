@@ -17,3 +17,5 @@ adreess_book["Guido"] = "Guido@python.org"
 if "Guido" in adreess_book:
     print("\nАдрес Guido:", adreess_book["Guido"])
 print("\nВ адресной книге {0} контактов\n".format(len(adreess_book)))
+
+print (adreess_book.items())

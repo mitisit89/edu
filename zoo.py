@@ -1,5 +1,6 @@
 def hours():
-    print("Open 9-5 daily")
+    a=2
+    print(f"Open 9-5 {a}daily")
 
 
 hours()
